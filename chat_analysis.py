@@ -1,7 +1,9 @@
 import csv
 from collections import Counter
 from textblob import TextBlob, Word, Blobber
-
+##import nltk
+##nltk.download('stopwords')
+##nltk.download('wordnet')
 #
 chat_log_list = []
 
@@ -69,7 +71,8 @@ while not key_search:
   # don't divide by 0
   if counter != 0:
     overall_sentiment = overall_sentiment/counter
-  overall_sentiment = 0
+  else:
+    overall_sentiment = 0
 
   # over all assume neutral
   pos_neg = "[Neutral]"
