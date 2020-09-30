@@ -13,3 +13,6 @@ Step 2: Run the **chat_ripper.py** file and copy paste text into the .csv of you
 Step 3: Run the **chat_analysis.py** file and start analysing the sentiment :)
 
 Step 4: Have fun
+
+
+Made for Python 3+
