@@ -1,9 +1,9 @@
 # us_election_2020
-Quickly put together script to help analyse text sentiment scraped from youtube comments during live debates between Joe Biden and Donald Trump. Working example with text included.
+Quickly put together script to help analyse text sentiment scraped from **Youtube** comments during live debates between Joe Biden and Donald Trump. Working example with text included.
 
 
 
-Step 1: In the **chat_ripper.py** file replace the string with the live chat you would like to scrape:
+Step 1: In the **chat_ripper.py** file replace the string with the **Youtube** live chat you would like to scrape:
 ```python
 livechat = LiveChat(video_id = "1gvpuY6ISoI")
 ```
